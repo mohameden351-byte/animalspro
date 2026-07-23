@@ -1,0 +1,1813 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get exclusive viral digital assets, POD templates, and TikTok creator resources from Mohameden 351. Level up your edits with our premium goat and cat designs.">
+    <meta name="author" content="Mohameden 351">
+    <title>Mohameden 351 - Viral Digital Assets & Creator Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #22c55e;
+            --primary-dark: #16a34a;
+            --secondary: #8b5cf6;
+            --accent: #d97706;
+            --background: #f8fafc;
+            --foreground: #0f172a;
+            --glass-bg: rgba(255, 255, 255, 0.6);
+            --glass-border: rgba(255, 255, 255, 0.4);
+        }
+
+        :root.dark {
+            --background: #0a0e12;
+            --foreground: #f1f5f9;
+            --glass-bg: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.08);
+        }
+
+        html[dir="rtl"] {
+            direction: rtl;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            background: var(--background);
+            color: var(--foreground);
+            line-height: 1.6;
+            overflow-x: hidden;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Glassmorphism */
+        .glass {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid var(--glass-border);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        :root.dark .glass {
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        :root.dark .glass-card {
+            background: rgba(30, 41, 59, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 50;
+            transition: all 0.3s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.25rem 1.5rem;
+            border-bottom: 1px solid transparent;
+        }
+
+        nav.scrolled {
+            background: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(12px);
+            border-bottom-color: rgba(255, 255, 255, 0.1);
+            padding: 0.75rem 1.5rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(to right, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-links {
+            display: none;
+            gap: 1.5rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        @media (min-width: 1024px) {
+            .nav-links {
+                display: flex;
+            }
+        }
+
+        .nav-controls {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .nav-controls-group {
+            display: none;
+            gap: 0.75rem;
+            background: rgba(0, 0, 0, 0.1);
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            border: 1px rgba(0, 0, 0, 0.05) solid;
+            align-items: center;
+        }
+
+        @media (min-width: 768px) {
+            .nav-controls-group {
+                display: flex;
+            }
+        }
+
+        .nav-controls button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: inherit;
+            transition: color 0.3s ease;
+            padding: 0.25rem;
+        }
+
+        .nav-controls button:hover {
+            color: var(--primary);
+        }
+
+        .divider {
+            width: 1px;
+            height: 1rem;
+            background: rgba(148, 163, 184, 0.3);
+        }
+
+        .nav-shop {
+            background: var(--primary);
+            color: white;
+            padding: 0.5rem 1.25rem;
+            border: none;
+            border-radius: 9999px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: background 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .nav-shop:hover {
+            background: var(--primary-dark);
+        }
+
+        /* Main Content */
+        main {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            padding-top: 80px;
+        }
+
+        /* Background Decorators */
+        .bg-decorator {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            pointer-events: none;
+        }
+
+        .bg-decorator-1 {
+            top: -10%;
+            left: -10%;
+            width: 40%;
+            height: 40%;
+            background: rgba(34, 197, 94, 0.2);
+        }
+
+        .bg-decorator-2 {
+            bottom: -10%;
+            right: -10%;
+            width: 40%;
+            height: 40%;
+            background: rgba(216, 180, 254, 0.2);
+        }
+
+        :root.dark .bg-decorator-1 {
+            background: rgba(34, 197, 94, 0.1);
+        }
+
+        :root.dark .bg-decorator-2 {
+            background: rgba(216, 180, 254, 0.1);
+        }
+
+        /* Hero Section */
+        #home {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            align-items: center;
+            padding: 2rem 1.5rem;
+            max-width: 80rem;
+            margin: 0 auto;
+            position: relative;
+            z-index: 10;
+            min-height: 90vh;
+        }
+
+        @media (min-width: 1024px) {
+            #home {
+                grid-template-columns: 1fr 1fr;
+                text-align: left;
+                padding: 8rem 1.5rem 5rem;
+            }
+        }
+
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            text-align: center;
+        }
+
+        @media (min-width: 1024px) {
+            .hero-content {
+                text-align: left;
+            }
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 0.375rem 1rem;
+            border-radius: 9999px;
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            color: var(--primary);
+            font-size: 0.875rem;
+            font-weight: 600;
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            width: fit-content;
+            margin: 0 auto;
+        }
+
+        @media (min-width: 1024px) {
+            .hero-badge {
+                margin: 0;
+            }
+        }
+
+        .hero-title {
+            font-size: 3rem;
+            font-weight: 800;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+        }
+
+        @media (min-width: 768px) {
+            .hero-title {
+                font-size: 4.5rem;
+            }
+        }
+
+        .hero-title span {
+            display: block;
+            background: linear-gradient(to right, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-desc {
+            font-size: 1.125rem;
+            color: #64748b;
+            max-width: 40rem;
+            line-height: 1.75;
+        }
+
+        :root.dark .hero-desc {
+            color: #cbd5e1;
+        }
+
+        .hero-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        @media (min-width: 640px) {
+            .hero-buttons {
+                flex-direction: row;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .hero-buttons {
+                justify-content: flex-start;
+            }
+        }
+
+        .btn {
+            padding: 1rem 2rem;
+            border-radius: 9999px;
+            font-weight: 700;
+            font-size: 1.125rem;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 0 20px rgba(34, 197, 94, 0.5);
+        }
+
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(34, 197, 94, 0.7);
+        }
+
+        .btn-primary:active {
+            transform: scale(0.95);
+        }
+
+        .btn-secondary {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            color: #1f2937;
+        }
+
+        :root.dark .btn-secondary {
+            border-color: rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            transform: scale(1.05);
+        }
+
+        .btn-secondary:active {
+            transform: scale(0.95);
+        }
+
+        .hero-image {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            max-width: 32rem;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .hero-image-container {
+            position: relative;
+            aspect-ratio: 1;
+            border-radius: 1.5rem;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 0.5rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            transform: rotate(3deg);
+            transition: transform 0.5s ease;
+            background: linear-gradient(to top right, rgba(34, 197, 94, 0.2), transparent);
+        }
+
+        .hero-image-container:hover {
+            transform: rotate(0deg);
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 1rem;
+        }
+
+        /* Products Section */
+        #assets {
+            padding: 6rem 1.5rem;
+            position: relative;
+            z-index: 10;
+        }
+
+        .section-container {
+            max-width: 80rem;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-header h2 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        @media (min-width: 768px) {
+            .section-header h2 {
+                font-size: 3rem;
+            }
+        }
+
+        .section-header p {
+            color: #64748b;
+            max-width: 40rem;
+            margin: 0 auto;
+            font-size: 1.125rem;
+        }
+
+        :root.dark .section-header p {
+            color: #94a3b8;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+        @media (min-width: 768px) {
+            .products-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .products-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .product-card {
+            border-radius: 1.875rem;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+        }
+
+        .product-card:hover {
+            transform: translateY(-0.5rem);
+        }
+
+        .product-image {
+            position: relative;
+            height: 16rem;
+            overflow: hidden;
+            padding: 0.5rem;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 1rem;
+            transition: transform 0.5s ease;
+        }
+
+        .product-card:hover .product-image img {
+            transform: scale(1.1);
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            z-index: 10;
+        }
+
+        [dir="rtl"] .product-badge {
+            right: auto;
+            left: 1rem;
+        }
+
+        .product-content {
+            padding: 1.5rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .product-desc {
+            font-size: 0.875rem;
+            color: #64748b;
+            margin-bottom: 1.5rem;
+            flex: 1;
+        }
+
+        :root.dark .product-desc {
+            color: #cbd5e1;
+        }
+
+        .product-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .product-price {
+            font-size: 1.875rem;
+            font-weight: 900;
+        }
+
+        .btn-small {
+            padding: 0.625rem 1.5rem;
+            font-size: 0.875rem;
+            background: rgba(0, 0, 0, 0.1);
+            border: none;
+            border-radius: 0.75rem;
+            color: inherit;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+        }
+
+        :root.dark .btn-small {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-small:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Proof Section */
+        .proof-section {
+            padding: 5rem 1.5rem;
+            background: rgba(0, 0, 0, 0.05);
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            position: relative;
+            z-index: 10;
+        }
+
+        :root.dark .proof-section {
+            background: rgba(0, 0, 0, 0.4);
+            border-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .proof-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            align-items: center;
+            max-width: 80rem;
+            margin: 0 auto;
+        }
+
+        @media (min-width: 768px) {
+            .proof-container {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .proof-content {
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            .proof-content {
+                text-align: left;
+            }
+        }
+
+        .proof-content h2 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        @media (min-width: 768px) {
+            .proof-content h2 {
+                font-size: 2.25rem;
+            }
+        }
+
+        .proof-desc {
+            color: #64748b;
+            margin-bottom: 2rem;
+            font-size: 1.125rem;
+        }
+
+        :root.dark .proof-desc {
+            color: #94a3b8;
+        }
+
+        .stats {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        @media (min-width: 768px) {
+            .stats {
+                justify-content: flex-start;
+            }
+        }
+
+        .stat {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            padding: 1.5rem;
+            border-radius: 1.25rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .stat-number {
+            font-size: 2.25rem;
+            font-weight: 900;
+            color: var(--foreground);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--primary);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-top: 0.25rem;
+        }
+
+        .proof-videos {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            max-width: 28rem;
+            margin: 0 auto;
+        }
+
+        @media (min-width: 768px) {
+            .proof-videos {
+                margin: 0;
+            }
+        }
+
+        .video-card {
+            position: relative;
+            aspect-ratio: 9 / 16;
+            background: #e2e8f0;
+            border-radius: 1rem;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        :root.dark .video-card {
+            background: #1e293b;
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .video-card:nth-child(2) {
+            transform: translateY(2rem);
+        }
+
+        .video-card:hover {
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .video-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.6;
+        }
+
+        .play-button {
+            position: absolute;
+            width: 3rem;
+            height: 3rem;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(4px);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .play-icon {
+            width: 1.5rem;
+            height: 1.5rem;
+            fill: white;
+            margin-left: 0.25rem;
+        }
+
+        .video-label {
+            position: absolute;
+            bottom: 1rem;
+            left: 1rem;
+            color: white;
+            z-index: 10;
+        }
+
+        .video-label p:first-child {
+            font-weight: 700;
+            font-size: 0.875rem;
+        }
+
+        .video-label p:last-child {
+            font-size: 0.75rem;
+            opacity: 0.8;
+        }
+
+        /* Newsletter Section */
+        .newsletter-section {
+            padding: 6rem 1.5rem;
+            position: relative;
+            z-index: 10;
+        }
+
+        .newsletter-card {
+            max-width: 48rem;
+            margin: 0 auto;
+            padding: 2rem 2rem;
+            border-radius: 2.5rem;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            border-left: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+        }
+
+        @media (min-width: 768px) {
+            .newsletter-card {
+                padding: 3rem;
+            }
+        }
+
+        .newsletter-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 16rem;
+            height: 16rem;
+            background: rgba(34, 197, 94, 0.2);
+            filter: blur(80px);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .newsletter-card h2 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 10;
+        }
+
+        @media (min-width: 768px) {
+            .newsletter-card h2 {
+                font-size: 3rem;
+            }
+        }
+
+        .newsletter-desc {
+            font-size: 1.125rem;
+            color: #64748b;
+            margin-bottom: 2rem;
+            max-width: 28rem;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            z-index: 10;
+        }
+
+        :root.dark .newsletter-desc {
+            color: #cbd5e1;
+        }
+
+        .newsletter-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 28rem;
+            margin: 0 auto;
+            position: relative;
+            z-index: 10;
+        }
+
+        @media (min-width: 640px) {
+            .newsletter-form {
+                flex-direction: row;
+            }
+        }
+
+        .newsletter-input {
+            flex: 1;
+            background: rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 9999px;
+            padding: 1rem 1.5rem;
+            outline: none;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+            color: inherit;
+        }
+
+        :root.dark .newsletter-input {
+            background: rgba(0, 0, 0, 0.4);
+            border-color: rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+
+        .newsletter-input:focus {
+            border-color: rgba(34, 197, 94, 0.5);
+        }
+
+        .newsletter-input::placeholder {
+            color: #a0aec0;
+        }
+
+        .newsletter-button {
+            background: #1f2937;
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 9999px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+        }
+
+        .newsletter-button:hover {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 0 20px rgba(34, 197, 94, 0.5);
+        }
+
+        .newsletter-button:active {
+            transform: scale(0.95);
+        }
+
+        :root.dark .newsletter-button {
+            background: white;
+            color: black;
+        }
+
+        .newsletter-spam {
+            font-size: 0.75rem;
+            color: #94a3b8;
+            margin-top: 1rem;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+            background: rgba(0, 0, 0, 0.05);
+            padding: 4rem 1.5rem 2rem;
+            margin-top: auto;
+            position: relative;
+            z-index: 10;
+            width: 100%;
+        }
+
+        :root.dark footer {
+            background: rgba(0, 0, 0, 0.5);
+            border-top-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-container {
+            max-width: 80rem;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        @media (min-width: 768px) {
+            .footer-container {
+                grid-template-columns: 2fr 1fr 1fr;
+            }
+        }
+
+        .footer-section h4 {
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .footer-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(to right, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .footer-desc {
+            color: #64748b;
+            max-width: 28rem;
+            font-size: 0.875rem;
+        }
+
+        :root.dark .footer-desc {
+            color: #94a3b8;
+        }
+
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .footer-links a {
+            color: #64748b;
+            text-decoration: none;
+            font-size: 0.875rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+
+        :root.dark .footer-links a {
+            color: #94a3b8;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+            padding-top: 2rem;
+            color: #64748b;
+            font-size: 0.875rem;
+        }
+
+        :root.dark .footer-bottom {
+            border-top-color: rgba(255, 255, 255, 0.05);
+            color: #94a3b8;
+        }
+
+        /* FAB */
+        .fab {
+            position: fixed;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            z-index: 50;
+            background: #22c55e;
+            color: white;
+            width: 3.5rem;
+            height: 3.5rem;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        [dir="rtl"] .fab {
+            right: auto;
+            left: 1.5rem;
+        }
+
+        .fab:hover {
+            transform: scale(1.1);
+            background: #16a34a;
+        }
+
+        .fab:active {
+            transform: scale(0.9);
+        }
+
+        /* Notification */
+        .notification {
+            position: fixed;
+            bottom: 1.5rem;
+            left: 1.5rem;
+            z-index: 50;
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(34, 197, 94, 0.2);
+            padding: 1rem;
+            border-radius: 1.25rem;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            box-shadow: 0 0 20px rgba(34, 197, 94, 0.1);
+            animation: slideIn 0.3s ease;
+            max-width: 20rem;
+        }
+
+        [dir="rtl"] .notification {
+            right: 1.5rem;
+            left: auto;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(1.25rem) translateX(-1.25rem);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) translateX(0);
+            }
+        }
+
+        .notification-icon {
+            background: rgba(34, 197, 94, 0.2);
+            padding: 0.5rem;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .notification-icon svg {
+            width: 1.25rem;
+            height: 1.25rem;
+            color: var(--primary);
+        }
+
+        .notification-content p:first-child {
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: var(--foreground);
+        }
+
+        .notification-content p:last-child {
+            font-size: 0.75rem;
+            color: #64748b;
+        }
+
+        :root.dark .notification-content p:last-child {
+            color: #cbd5e1;
+        }
+
+        .notification-close {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #64748b;
+            padding: 0;
+            margin-left: auto;
+            flex-shrink: 0;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(4px);
+            z-index: 100;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
+        }
+
+        .modal.active {
+            display: flex;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .modal-content {
+            background: var(--background);
+            border-radius: 1.5rem;
+            max-width: 48rem;
+            max-height: 80vh;
+            overflow-y: auto;
+            padding: 2rem;
+            position: relative;
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(2rem);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: inherit;
+        }
+
+        [dir="rtl"] .modal-close {
+            right: auto;
+            left: 1.5rem;
+        }
+
+        .modal h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            margin-top: 0;
+        }
+
+        .modal h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin: 1.5rem 0 0.75rem 0;
+        }
+
+        .modal p {
+            color: #64748b;
+            line-height: 1.75;
+            margin-bottom: 1rem;
+        }
+
+        :root.dark .modal p {
+            color: #cbd5e1;
+        }
+
+        .modal ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .modal ul li {
+            color: #64748b;
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        :root.dark .modal ul li {
+            color: #cbd5e1;
+        }
+
+        .modal ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        /* Utilities */
+        .text-gradient {
+            background: linear-gradient(to right, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Mobile Menu */
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: inherit;
+            font-size: 1.5rem;
+        }
+
+        @media (max-width: 1023px) {
+            .mobile-menu-toggle {
+                display: block;
+            }
+        }
+
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-brand">Mohameden 351</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#assets">Digital Assets</a></li>
+            <li><a href="#assets">POD Assets</a></li>
+            <li><a href="#assets">TikTok Guides</a></li>
+            <li><a href="#about">Creator</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-controls">
+            <div class="nav-controls-group">
+                <button id="themeToggle" title="Toggle Theme">☀️</button>
+                <div class="divider"></div>
+                <button id="langToggle" title="Toggle Language">🌐 EN</button>
+                <div class="divider"></div>
+                <button id="currencyToggle" title="Toggle Currency">💵 USD</button>
+            </div>
+            <a href="https://www.teepublic.com/user/cute-kitty-store/t-shirts" class="nav-shop" target="_blank">Shop Now</a>
+        </div>
+        <button class="mobile-menu-toggle">☰</button>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="bg-decorator bg-decorator-1"></div>
+        <div class="bg-decorator bg-decorator-2"></div>
+
+        <!-- Hero Section -->
+        <section id="home">
+            <div class="hero-content">
+                <div class="hero-badge">🐐 Viral TikTok Assets Available Now</div>
+                <h1 class="hero-title">Level Up Your Edits With <span>Viral Goat Assets</span></h1>
+                <p class="hero-desc">Exclusive digital art, high-converting POD templates, and premium assets tailored for creators who want to stand out. Get the exact resources used in top viral TikToks.</p>
+                <div class="hero-buttons">
+                    <a href="#assets" class="btn btn-primary">Browse Assets →</a>
+                    <a href="https://www.tiktok.com/@mohameden351" target="_blank" class="btn btn-secondary">Watch TikToks</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-container">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect fill='%23e2e8f0' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='24' text-anchor='middle' dominant-baseline='middle' fill='%2364748b'%3E[Hero Image]%3C/text%3E%3C/svg%3E" alt="Cyberpunk Goat">
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="assets">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>Premium Digital Assets</h2>
+                    <p>Unlock the exact files used to create million-view masterpieces. Instant delivery, full commercial rights.</p>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Product 1 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect fill='%23e2e8f0' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='18' text-anchor='middle' dominant-baseline='middle' fill='%2364748b'%3E[Tech Cat]%3C/text%3E%3C/svg%3E" alt="Tech Cat Art">
+                            <div class="product-badge">Top Seller</div>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Cool Podcast Cat – 4K/HD</h3>
+                            <p class="product-desc">High-resolution, ultra-detailed digital art perfect for tech enthusiasts and creators. Includes raw files.</p>
+                            <div class="product-footer">
+                                <span class="product-price">$2</span>
+                                <a href="https://mohameden.gumroad.com/l/podcastcat" target="_blank" class="btn-small">Buy Now 🛒</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect fill='%23e2e8f0' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='18' text-anchor='middle' dominant-baseline='middle' fill='%2364748b'%3E[Goat Footage]%3C/text%3E%3C/svg%3E" alt="Goat Footage">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">ULTIMATE GOAT FOOTAGE ASSET</h3>
+                            <p class="product-desc">RAW 4K CLIPS – PERFECT FOR DOCS & MEMES. Instant download on Gumroad.</p>
+                            <div class="product-footer">
+                                <span class="product-price">$10</span>
+                                <a href="https://mohameden.gumroad.com/l/GoatsandSheep" target="_blank" class="btn-small">Buy Now 🛒</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect fill='%23e2e8f0' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='18' text-anchor='middle' dominant-baseline='middle' fill='%2364748b'%3E[Cat & Goat]%3C/text%3E%3C/svg%3E" alt="Cute Kitty & Friends">
+                            <div class="product-badge">Bundle Deals</div>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Cute Kitty & Friends Art</h3>
+                            <p class="product-desc">Exclusive, adorable 3D digital artwork featuring a cute kitty and a goat. Perfect for animal lovers.</p>
+                            <div class="product-footer">
+                                <span class="product-price">Special</span>
+                                <a href="https://www.teepublic.com/user/cute-kitty-store/t-shirts" target="_blank" class="btn-small">Buy Now 🛒</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Proof Section -->
+        <section class="proof-section">
+            <div class="proof-container">
+                <div class="proof-content">
+                    <h2>Trusted by 500k+ Followers</h2>
+                    <p class="proof-desc">Join the community and see why @mohameden351 assets are consistently generating viral moments across TikTok.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">10M+</span>
+                            <span class="stat-label">Views</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50K+</span>
+                            <span class="stat-label">Downloads</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4.9/5</span>
+                            <span class="stat-label">Rating</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="proof-videos">
+                    <a href="https://www.tiktok.com/@mohameden351/video/7561076699094404363" target="_blank" class="video-card">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect fill='%23e2e8f0' width='400' height='400'/%3E%3C/svg%3E" alt="TikTok Video 1">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <div class="video-label">
+                            <p>@mohameden351</p>
+                            <p>Viral Goat Edit 🐐🔥</p>
+                        </div>
+                    </a>
+                    <a href="https://www.tiktok.com/@mohameden351/video/7574035399409011979" target="_blank" class="video-card">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect fill='%23e2e8f0' width='400' height='400'/%3E%3C/svg%3E" alt="TikTok Video 2">
+                        <div class="play-button">
+                            <svg class="play-icon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <div class="video-label">
+                            <p>@mohameden351</p>
+                            <p>Tech Cat Process 💻</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section">
+            <div class="newsletter-card">
+                <h2>Weekly Goat Humor & Designs</h2>
+                <p class="newsletter-desc">Drop your email to get free digital wallpapers, early access to new POD assets, and a weekly dose of animal-tech madness.</p>
+                <form class="newsletter-form" onsubmit="handleNewsletterSubmit(event)">
+                    <input type="email" class="newsletter-input" placeholder="Enter your email..." required>
+                    <button type="submit" class="newsletter-button">Subscribe Now</button>
+                </form>
+                <p class="newsletter-spam">No spam. Just quality content. Unsubscribe anytime.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="footer-brand">Mohameden 351</div>
+                <p class="footer-desc">The premier destination for viral animal-tech digital assets. Quality tools for quality creators.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#assets">Digital Assets</a></li>
+                    <li><a href="#assets">POD Assets</a></li>
+                    <li><a href="#assets">TikTok Guides</a></li>
+                    <li><a href="#about">Creator</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="#" onclick="openModal('terms'); return false;">Terms of Service</a></li>
+                    <li><a href="#" onclick="openModal('privacy'); return false;">Privacy Policy</a></li>
+                    <li><a href="#" onclick="openModal('licensing'); return false;">Licensing Info</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 Mohameden 351. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- FAB -->
+    <button class="fab" title="Contact Us">💬</button>
+
+    <!-- Notification -->
+    <div id="notification" class="notification" style="display: none;">
+        <div class="notification-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 18c-1.26 0-2.49.52-3.39 1.47A5.002 5.002 0 0017 16h2a7 7 0 00-12 2zM15.89 10.1A3 3 0 1012 7a3 3 0 013.89 3.1z"/></svg>
+        </div>
+        <div class="notification-content">
+            <p id="notification-title">Someone from USA</p>
+            <p id="notification-message">Just purchased Goat Assets</p>
+        </div>
+        <button class="notification-close" onclick="closeNotification()">×</button>
+    </div>
+
+    <!-- Modals -->
+    <div id="termsModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('terms')">×</button>
+            <h2>Terms of Service</h2>
+
+            <h3>Introduction</h3>
+            <p>Welcome to Mohameden 351. By accessing our website and purchasing our digital assets, you agree to be bound by these Terms of Service. Please read them carefully.</p>
+
+            <h3>Use of the Website</h3>
+            <p>You may use this website for browsing, purchasing digital assets, and accessing content. You must not use this website in any way that causes, or may cause, damage to the website or impairment of the availability or accessibility of the website.</p>
+
+            <h3>Digital Product Purchases & Instant Downloads</h3>
+            <p>All products sold on this website are digital downloads (e.g., POD designs, sticker packs, social media assets, digital art). Upon successful payment, you will receive an instant download link. No physical shipping is involved.</p>
+
+            <h3>Payment Terms</h3>
+            <p>We accept various forms of payment through our secure third-party processors. All prices are subject to change without notice. By submitting payment, you represent that you are authorized to use the designated payment method.</p>
+
+            <h3>Refund Policy for Digital Products</h3>
+            <p>Due to the nature of digital downloads, all sales are final. We do not offer refunds, returns, or exchanges once a file has been purchased and downloaded, unless there is a proven technical defect with the file itself.</p>
+
+            <h3>User Responsibilities & Prohibited Use</h3>
+            <p>You agree not to use our products for illegal activities. You may not distribute, resell, or share the raw source files of any digital asset purchased from Mohameden 351 without an appropriate license.</p>
+
+            <h3>Intellectual Property</h3>
+            <p>All content, designs, and digital assets on this website are the exclusive property of Mohameden 351 and are protected by copyright laws. Purchasing an asset grants you a license to use it, not ownership of the copyright.</p>
+
+            <h3>Limitation of Liability</h3>
+            <p>Mohameden 351 shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your access to or use of, or inability to access or use, the website or digital products.</p>
+
+            <h3>Changes to Terms</h3>
+            <p>We reserve the right to modify these Terms of Service at any time. We will notify users of any changes by updating the date at the top of this page.</p>
+
+            <h3>Contact Information</h3>
+            <p>If you have any questions about these Terms, please reach out via our Contact page.</p>
+        </div>
+    </div>
+
+    <div id="privacyModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('privacy')">×</button>
+            <h2>Privacy Policy</h2>
+
+            <h3>Information Collected</h3>
+            <p>We collect information you provide directly to us when you make a purchase, sign up for our newsletter, or contact us. This may include your name, email address, and transaction history.</p>
+
+            <h3>Email and Newsletter Data</h3>
+            <p>If you opt into our newsletter, we store your email address to send you weekly updates, free digital wallpapers, and early access to POD assets. You can unsubscribe at any time using the link at the bottom of our emails.</p>
+
+            <h3>Payment Information</h3>
+            <p>All payment information is handled securely by third-party processors (e.g., Stripe, PayPal, Gumroad). We do not store or process your credit card numbers on our servers.</p>
+
+            <h3>Cookies and Analytics</h3>
+            <p>We use cookies and similar tracking technologies to analyze website traffic and improve user experience. This helps us understand which digital assets are most popular and how visitors navigate our site.</p>
+
+            <h3>How Data is Used</h3>
+            <p>Your data is used solely to process orders, deliver your digital downloads, provide customer support, and, with your consent, send promotional emails. We do not sell your personal data to third parties.</p>
+
+            <h3>Data Protection</h3>
+            <p>We implement a variety of security measures to maintain the safety of your personal information. However, no transmission over the Internet is 100% secure.</p>
+
+            <h3>Third-Party Services</h3>
+            <p>We may share your data with trusted third-party service providers who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential.</p>
+
+            <h3>User Rights</h3>
+            <p>You have the right to request access to, correction of, or deletion of your personal data. Please contact us to exercise these rights.</p>
+
+            <h3>Contact Information</h3>
+            <p>If you have questions about this Privacy Policy, please use the Contact page to reach us.</p>
+        </div>
+    </div>
+
+    <div id="licensingModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('licensing')">×</button>
+            <h2>Licensing Info</h2>
+
+            <h3>Personal Use License</h3>
+            <p>This license allows you to use the purchased digital assets for personal, non-commercial projects. You may use them for your own personal social media accounts, home printing, or personal creative projects where no money is being made.</p>
+
+            <h3>Commercial Use License</h3>
+            <p>Our commercial use license allows you to use the assets to generate revenue. This includes incorporating the designs into products for sale, using them in monetized videos, or client work. A commercial license must be specifically purchased or noted on the product page.</p>
+
+            <h3>What is Allowed</h3>
+            <ul>
+                <li>Creating physical products (T-shirts, mugs, posters) using Print-on-Demand (POD) services (with Commercial License).</li>
+                <li>Using video clips and assets in monetized TikToks, YouTube shorts, or Instagram Reels.</li>
+                <li>Modifying the designs or combining them with other elements to create a new derivative work.</li>
+            </ul>
+
+            <h3>What is Not Allowed</h3>
+            <ul>
+                <li>Reselling, sharing, or distributing the raw, original digital files as-is.</li>
+                <li>Selling the designs on stock image websites or as digital design bundles.</li>
+                <li>Claiming the original artwork or assets as your own.</li>
+            </ul>
+
+            <h3>POD Usage Rules</h3>
+            <p>You may use our POD Assets on platforms like Printify, Printful, Redbubble, or Merch by Amazon provided you have a Commercial License. However, you cannot upload the raw, unmodified design files to platforms where the platform claims copyright over uploaded designs.</p>
+
+            <h3>Social Media Usage</h3>
+            <p>Using our viral assets in your videos is highly encouraged! For personal accounts, a Personal License is sufficient. For brand accounts or heavily monetized channels, a Commercial License is required.</p>
+
+            <h3>Copyright Ownership</h3>
+            <p>Purchasing a license does not transfer copyright ownership. Mohameden 351 retains all copyrights to the original digital files and artwork.</p>
+
+            <h3>License Upgrade Option</h3>
+            <p>If you originally purchased a Personal License and your project has grown to be commercial, you can upgrade your license by paying the difference. Please contact us to arrange this.</p>
+
+            <h3>Contact for Extended License</h3>
+            <p>If you are a large corporation or need an enterprise-level extended license, please use our Contact page to reach out.</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        const translations = {
+            en: {
+                nav: {
+                    home: "Home",
+                    assets: "Digital Assets",
+                    pod: "POD Assets",
+                    guides: "TikTok Guides",
+                    creator: "Creator",
+                    contact: "Contact",
+                    shop: "Shop Now",
+                },
+                hero: {
+                    badge: "🐐 Viral TikTok Assets Available Now",
+                    title1: "Level Up Your Edits With",
+                    title2: "Viral Goat Assets",
+                    desc: "Exclusive digital art, high-converting POD templates, and premium assets tailored for creators who want to stand out. Get the exact resources used in top viral TikToks.",
+                    btn1: "Browse Assets",
+                    btn2: "Watch TikToks",
+                },
+                products: {
+                    title: "Premium Digital Assets",
+                    desc: "Unlock the exact files used to create million-view masterpieces. Instant delivery, full commercial rights.",
+                },
+                proof: {
+                    title: "Trusted by 500k+ Followers",
+                    desc: "Join the community and see why @mohameden351 assets are consistently generating viral moments across TikTok.",
+                },
+                newsletter: {
+                    title: "Weekly Goat Humor & Designs",
+                    desc: "Drop your email to get free digital wallpapers, early access to new POD assets, and a weekly dose of animal-tech madness.",
+                },
+                footer: {
+                    desc: "The premier destination for viral animal-tech digital assets. Quality tools for quality creators.",
+                },
+            },
+            ar: {
+                nav: {
+                    home: "الرئيسية",
+                    assets: "الأصول الرقمية",
+                    pod: "تصاميم الطباعة",
+                    guides: "أدلة تيك توك",
+                    creator: "صانع المحتوى",
+                    contact: "تواصل معنا",
+                    shop: "تسوق الآن",
+                },
+                hero: {
+                    badge: "🐐 أصول تيك توك الفيروسية متاحة الآن",
+                    title1: "ارتقِ بمحتواك الرقمي مع",
+                    title2: "أصول الماعز الفيروسية",
+                    desc: "فن رقمي حصري، قوالب طباعة عند الطلب عالية التحويل، وأصول مميزة مصممة للمبدعين الذين يرغبون في التميز. احصل على نفس الموارد المستخدمة في أشهر مقاطع تيك توك.",
+                    btn1: "تصفح الأصول",
+                    btn2: "شاهد تيك توك",
+                },
+                products: {
+                    title: "أصول رقمية مميزة",
+                    desc: "افتح الملفات الدقيقة المستخدمة لإنشاء روائع حصدت ملايين المشاهدات. تسليم فوري، حقوق تجارية كاملة.",
+                },
+                proof: {
+                    title: "موثوق من قبل أكثر من 500 ألف متابع",
+                    desc: "انضم إلى المجتمع واكتشف لماذا تولّد أصول @mohameden351 باستمرار لحظات فيروسية عبر تيك توك.",
+                },
+                newsletter: {
+                    title: "فكاهة وتصاميم الماعز الأسبوعية",
+                    desc: "أدخل بريدك الإلكتروني للحصول على خلفيات رقمية مجانية، ووصول مبكر لأصول الطباعة الجديدة، وجرعة أسبوعية من جنون التكنولوجيا والحيوانات.",
+                },
+                footer: {
+                    desc: "الوجهة الأولى لأصول التكنولوجيا والحيوانات الرقمية الفيروسية. أدوات جودة للمبدعين المميزين.",
+                },
+            }
+        };
+
+        let isDark = localStorage.getItem('isDark') === 'true' || true;
+        let lang = localStorage.getItem('lang') || 'en';
+        let currency = localStorage.getItem('currency') || 'USD';
+
+        function initTheme() {
+            if (isDark) {
+                document.documentElement.classList.add('dark');
+                document.getElementById('themeToggle').textContent = '🌙';
+            } else {
+                document.documentElement.classList.remove('dark');
+                document.getElementById('themeToggle').textContent = '☀️';
+            }
+        }
+
+        function initLanguage() {
+            document.documentElement.lang = lang;
+            document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+            document.getElementById('langToggle').textContent = lang.toUpperCase() === 'AR' ? 'AR عربي' : '🌐 EN';
+            updatePageLanguage();
+        }
+
+        function initCurrency() {
+            document.getElementById('currencyToggle').textContent = currency === 'USD' ? '💵 USD' : '💵 MAD';
+        }
+
+        function updatePageLanguage() {
+            const t = translations[lang];
+            // Update visible content
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                const keys = key.split('.');
+                let value = t;
+                for (let k of keys) {
+                    value = value[k];
+                }
+                if (el.tagName === 'INPUT') {
+                    el.placeholder = value;
+                } else {
+                    el.textContent = value;
+                }
+            });
+        }
+
+        function toggleTheme() {
+            isDark = !isDark;
+            localStorage.setItem('isDark', isDark);
+            initTheme();
+        }
+
+        function toggleLanguage() {
+            lang = lang === 'en' ? 'ar' : 'en';
+            localStorage.setItem('lang', lang);
+            initLanguage();
+        }
+
+        function toggleCurrency() {
+            currency = currency === 'USD' ? 'Local' : 'USD';
+            localStorage.setItem('currency', currency);
+            initCurrency();
+        }
+
+        function handleScroll() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 20) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        }
+
+        function handleNewsletterSubmit(e) {
+            e.preventDefault();
+            alert(lang === 'ar' ? 'شكراً على اشتراكك!' : 'Thank you for subscribing!');
+            e.target.reset();
+        }
+
+        function openModal(type) {
+            document.getElementById(type + 'Modal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(type) {
+            document.getElementById(type + 'Modal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function closeNotification() {
+            document.getElementById('notification').style.display = 'none';
+        }
+
+        function showNotification() {
+            const notification = document.getElementById('notification');
+            const messages = {
+                en: [
+                    { title: 'Someone from USA', message: 'Just purchased Goat Assets' },
+                    { title: 'Someone from Saudi Arabia', message: 'Just purchased POD Template' },
+                    { title: 'Someone from Egypt', message: 'Just purchased Digital Art Pack' }
+                ],
+                ar: [
+                    { title: 'شخص من المملكة العربية السعودية', message: 'اشترى للتو أصول الماعز' },
+                    { title: 'شخص من مصر', message: 'اشترى للتو قالب الطباعة' },
+                    { title: 'شخص من الإمارات', message: 'اشترى للتو حزمة الفن الرقمي' }
+                ]
+            };
+
+            const msg = messages[lang][Math.floor(Math.random() * messages[lang].length)];
+            document.getElementById('notification-title').textContent = msg.title;
+            document.getElementById('notification-message').textContent = msg.message;
+            notification.style.display = 'flex';
+
+            setTimeout(() => {
+                notification.style.display = 'none';
+            }, 5000);
+        }
+
+        // Event listeners
+        document.getElementById('themeToggle').addEventListener('click', toggleTheme);
+        document.getElementById('langToggle').addEventListener('click', toggleLanguage);
+        document.getElementById('currencyToggle').addEventListener('click', toggleCurrency);
+        window.addEventListener('scroll', handleScroll);
+
+        // Close modals when clicking outside
+        document.querySelectorAll('.modal').forEach(modal => {
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    const type = modal.id.replace('Modal', '');
+                    closeModal(type);
+                }
+            });
+        });
+
+        // Show notification every 15 seconds
+        setInterval(showNotification, 15000);
+
+        // Initialize
+        initTheme();
+        initLanguage();
+        initCurrency();
+    </script>
+</body>
+</html>
